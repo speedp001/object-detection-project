@@ -1,0 +1,19 @@
+train: ../animals_dataset/train/images
+val: ../animals_dataset/valid/images
+test: ../animals_dataset/test/images
+
+# nc: 10
+# names: ['cat', 'chicken', 'cow', 'dog', 'fox', 'goat', 'horse', 'person', 'racoon', 'skunk']
+
+# Classes
+names:
+  0: cat
+  1: chicken
+  2: cow
+  3: dog
+  4: fox
+  5: goat
+  6: horse
+  7: person
+  8: racoon
+  9: skunk
