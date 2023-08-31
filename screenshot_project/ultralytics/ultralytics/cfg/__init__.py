@@ -440,7 +440,6 @@ def copy_default_cfg():
     LOGGER.info(f'{DEFAULT_CFG_PATH} copied to {new_file}\n'
                 f"Example YOLO command with this new custom cfg:\n    yolo cfg='{new_file}' imgsz=320 batch=8")
 
-
 if __name__ == '__main__':
     # Example Usage: entrypoint(debug='yolo predict model=yolov8n.pt')
     entrypoint(debug='')
