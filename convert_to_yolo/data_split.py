@@ -39,6 +39,7 @@ for image_name in train_names :
     
     #annotation csv
     annotation = annotation_df.loc[annotation_df['filename'] == image_name].copy()
+    # .loc 메서드는 행을 선택하는 메서드로, 조건에 맞는 행들을 추출
     annotation['filename'] = image_name
     train_annotations = train_annotations._append(annotation)
     
