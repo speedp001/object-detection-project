@@ -66,6 +66,7 @@ if __name__ == "__main__":
     # train을 위해 만든 편의 class 선언
     learner = SegLearner(model, optimizer, criterion, train_dataloader, valid_dataloader, args)
     
+    # 체크포인트가 있다면 가중치 불러와서 이어서 학습 재개
     if args.resume:
         learner.load_ckpts()
 
