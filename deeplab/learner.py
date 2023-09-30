@@ -167,7 +167,7 @@ class SegLearner:
     
     def save_ckpts(self, epoch, file_name=None):
         # 체크포인트 저장을 처리하기 위한 편의함수
-        if not os.path.exists(self.args.weight_folder_path):
+        if not os.path.exists(self.args.weight_file_name):
             os.makedirs(self.args.weight_folder_path, exist_ok=True)
         # 모델 가중치가 저장될 폴더가 없을 경우, 오류가 날 수 있으므로
         # 터미널 인자 args에서 받은 model_folder_path가 있는지 확인 후, 없으면 생성
