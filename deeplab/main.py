@@ -33,11 +33,11 @@ if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--data_path", type=str, default="./deeplab/dataset", 
                         help="데이터셋 파일이 저장되거나 로딩될 지점")
-    parser.add_argument("--weight_folder_path", type=str, default="./deeplab/weight",
+    parser.add_argument("--weight_folder", type=str, default="./deeplab/weight",
                         help="가중치가 저장될 폴더의 경로")
     parser.add_argument("--weight_file_name", type=str, default="weight.pt",
                         help="저장될 가중치 파일의 이름")
-    parser.add_argument("--batch_size", type=int, default=2, 
+    parser.add_argument("--batch_size", type=int, default=2,
                         help="Batch size")
     parser.add_argument("--num_workers", type=int, default=4, 
                         help="데이터로더가 사용할 프로세스 수")
@@ -45,7 +45,7 @@ if __name__ == "__main__":
                         help="learning rate")
     parser.add_argument("--weight_decay", type=float, default=0.01,
                         help="lr의 감소율")
-    parser.add_argument("--resume", action="store_true",
+    parser.add_argument("--resume", default=True, action="store_true",
                         help="학습 재개 여부, store_true가 지정되면 터미널 인자로 선언되어야 true가 들어옴")
     parser.add_argument("--epochs", type=int, default=10,
                         help="학습의 총 epochs")
