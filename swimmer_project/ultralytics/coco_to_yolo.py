@@ -105,7 +105,7 @@ def convert_coco_to_yaml(image_path, yolo_image_copy_path, coco_annotations_path
         
     
     
-        
+
 # yolo형식의 데이터 셋 폴더 생성
 os.makedirs("./object_tracking/ultralytics/ultralytics/cfg/swimmer_yolo_datset/train/images", exist_ok=True)
 os.makedirs("./object_tracking/ultralytics/ultralytics/cfg/swimmer_yolo_datset/train/labels", exist_ok=True)
