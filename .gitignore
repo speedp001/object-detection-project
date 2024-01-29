@@ -1,0 +1,28 @@
+# ignore pycache
+*.pyc
+
+# ignore dataset
+/animals_project/animals_dataset
+
+/cars_project/cars_dataset
+/cars_project/ultralytics/ultralytics/cfg/cars_yolo_dataset
+
+/convert_to_yolo/csv_dataset
+/convert_to_yolo/org_dataset
+/convert_to_yolo/yolo_dataset
+
+/deeplab/dataset
+
+/flowchart_project/flowchart_dataset
+/flowchart_project/ultralytics/ultralytics/cfg/flowchart_yolo_dataset
+
+/glass_project/glass_dataset
+/glass_project/ultralytics/ultralytics/cfg/glass_yolo_dataset
+
+/keypoint_project/keypoint_dataset
+
+/screenshot_project/screenshot_dataset
+/screenshot_project/ultralytics/ultralytics/cfg/screenshot_yolo_dataset
+
+/swimmer_project/swimmer_dataset
+/swimmer_project/ultralytics/ultralytics/cfg/swimmer_yolo_datset
