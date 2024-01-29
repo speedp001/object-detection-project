@@ -1,6 +1,11 @@
 # ignore pycache
 *.pyc
 
+# ignore .pt
+*.pt
+*.pth
+*.tar
+
 # ignore dataset
 /animals_project/animals_dataset
 
